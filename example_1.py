@@ -4,9 +4,20 @@ import locale
 """1. Каждое из слов «разработка», «сокет», «декоратор» представить в строковом формате
 и проверить тип и содержание соответствующих переменных. Затем с помощью
 онлайн-конвертера преобразовать строковые представление в формат Unicode и также
-проверить тип и содержимое переменных."""
+проверить тип и содержимое переменных. Затем с помощью онлайн-конвертера преобразовать
+в набор кодовых точек Unicode (НО НЕ В БАЙТЫ!!!)
+и также проверить тип и содержимое переменных.
 
-print('********** № 1 **********')
+*Попытайтесь получить кодовые точки без онлайн-конвертера!
+без хардкода!
+
+Подсказки:
+--- 'разработка' - буквенный формат
+--- '\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430' - набор кодовых точек
+--- используйте списки и циклы, не дублируйте функции
+"""
+
+print('**№ 1 v1 **')
 word_1 = 'разработка'
 word_2 = 'сокет'
 word_3 = 'декоратор'
@@ -19,11 +30,31 @@ word_3 = '\u0434\u0435\u043a\u043e\u0440\u0430\u0442\u043e\u0440'
 print(type(word_1), type(word_2), type(word_3))
 print((word_1, word_2, word_3))
 
+print('**№ 1 v2 **')
+
+strs = ['разработка', 'сокет', 'декоратор']
+
+for s in strs:
+    print(type(s), s)
+
+strs_unicode = [
+    '\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430',
+    '\u0441\u043e\u043a\u0435\u0442',
+    '\u0434\u0435\u043a\u043e\u0440\u0430\u0442\u043e\u0440'
+    ]
+
+for s in strs_unicode:
+    print(type(s), s)
+  
+  
 """2. Каждое из слов «class», «function», «method» записать в байтовом типе
 без преобразования в последовательность кодов (не используя методы encode
- и decode) и определить тип, содержимое и длину соответствующих переменных."""
+ и decode) и определить тип, содержимое и длину соответствующих переменных. 
+Подсказки:
+--- b'class' - используйте маркировку b''
+--- используйте списки и циклы, не дублируйте функции"""
 
-print('********** № 2 **********')
+print('** № 2 v1 **')
 word_1 = b'class'
 word_2 = b'function'
 word_3 = b'method'
@@ -32,10 +63,26 @@ print(type(word_1), type(word_2), type(word_3))
 print(word_1, word_2, word_3)
 print((len(word_1), len(word_2), len(word_3)))
 
-"""3. Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в
-байтовом типе"""
+print('** № 2 v2 **')
+words = []
+words.append(b'class')
+words.append(b'function')
+words.append(b'method')
 
-print('********** № 3 **********')
+for word in words:
+    print(word)
+    print(type(word))
+    print(len(word))
+
+"""3. Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в
+байтовом типе с помощью маркировки b'' (без encode decode).
+
+Подсказки:
+--- используйте списки и циклы, не дублируйте функции
+--- обязательно!!! усложните задачу, "отловив" исключение,
+придумайте как это сделать"""
+
+print('** № 3 v1 **')
 word_1 = b'attribute'
 word_2 = 'класс'.encode('utf-8')  # невозможно записать в байтовом типе
 word_3 = 'функция'.encode('utf-8')  # невозможно записать в байтовом типе
@@ -43,11 +90,25 @@ word_4 = b'type'
 
 print((word_1, word_2, word_3, word_4))
 
+print('** № 3 v2 **')
+words = []
+words.append(b"attribute")  # возможно
+words.append(b"класс")      # невозможно записать SyntaxError: bytes can only contain ASCII literal characters.
+words.append(b"функция")    # невозможно записать SyntaxError: bytes can only contain ASCII literal characters.
+words.append(b"type")       # возможно
+
+for word in words:
+    print(word)
+    print(type(word))
+    print(len(word))
+
 """4. Преобразовать слова «разработка», «администрирование», «protocol», «standard» из
 строкового представления в байтовое и выполнить обратное преобразование (используя
-методы encode и decode)."""
+методы encode и decode).
+Подсказки:
+--- используйте списки и циклы, не дублируйте функции"""
 
-print('********** № 4 **********')
+print('** № 4 v1 **')
 word_1 = 'разработка'.encode('utf-8')
 word_2 = 'администрирование'.encode('utf-8')
 word_3 = b'protocol'
@@ -60,40 +121,43 @@ word_3 = word_3.decode('utf-8')
 word_4 = word_4.decode('utf-8')
 print((word_1, word_2, word_3, word_4))
 
+print('** № 4 v2 **')
+words = []
+words.append("разработка")
+words.append("администрирование")
+words.append("protocol")
+words.append("standard")
+
+# b_words = []
+
+for word in words:
+    print(word)
+    print(type(word))
+    b_word = str.encode(word, encoding= 'utf-8')
+    print(b_word)
+    print(type(b_word))
+    s_word = bytes.decode(b_word, encoding= 'utf-8')
+    print(s_word)
+    print(type(s_word))
+    print()
+
 """5. Выполнить пинг веб-ресурсов yandex.ru, youtube.com и преобразовать результаты из
 байтовового в строковый тип на кириллице."""
 
-print('********** № 5 **********')
+print('** № 5 v1 **')
+import subprocess
+import chardet
+import os
+
 args_1 = ['ping', 'yandex.ru']
 args_2 = ['ping', 'youtube.com']
-
-subproc_ping = subprocess.Popen(args_1, stdout=subprocess.PIPE)
-for line in subproc_ping.stdout:
-    print(line.decode('cp866'), end='')
-
-subproc_ping = subprocess.Popen(args_2, stdout=subprocess.PIPE)
-for line in subproc_ping.stdout:
-    print(line.decode('cp866'), end='')
-
-"""6. Создать текстовый файл test_file.txt, заполнить его тремя строками: «сетевое
-программирование», «сокет», «декоратор». Проверить кодировку файла по умолчанию.
-Принудительно открыть файл в формате Unicode и вывести его содержимое."""
-
-print('********** № 6 **********')
-print(locale.getpreferredencoding())
-
-file = open('test_file.txt', 'w')
-file.write("сетевое программирование\n")
-file.write("сокет\n")
-file.write("декоратор\n")
-print(f'Кодировка файла по умолчанию - {file.encoding}')
-file.close()
-
-# with open('test_file.txt', encoding='utf-8') as file:
-#     for line in file:
-#         print(line, end='')
-# UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 0: invalid continuation byte
-"""Установленa Windows"""
-with open('test_file.txt', encoding='cp1251') as file:
-    for line in file:
-        print(line, end='')
+ya_ping = subprocess.Popen(args_1, stdout=subprocess.PIPE)
+print(ya_ping.stdout)
+for line in YA_PING.stdout:
+          res = chardet.detected(line)
+          print(line.decode(encoding=res['encoding']))
+ytb_ping = subprocess.Popen(args_2, stdout=subprocess.PIPE)
+print(ytb_ping.stdout)
+for line in ytb_ping.stdout:
+          res = chardet.detected(line)
+          print(line.decode(encoding=res['encoding']))
