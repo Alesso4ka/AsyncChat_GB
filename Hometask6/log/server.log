@@ -1,0 +1,45 @@
+2023-06-26 18:39:43,988 INFO server Установлено соедение с клиентом ('127.0.0.1', 45070) 
+2023-06-26 18:39:43,989 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:43,989 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:43,989 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:43,989 DEBUG server Соединение с клиентом ('127.0.0.1', 45070) закрывается. 
+2023-06-26 18:39:46,264 INFO server Установлено соедение с клиентом ('127.0.0.1', 45926) 
+2023-06-26 18:39:46,265 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:46,265 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:46,265 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:46,265 DEBUG server Соединение с клиентом ('127.0.0.1', 45926) закрывается. 
+2023-06-26 18:39:47,004 INFO server Установлено соедение с клиентом ('127.0.0.1', 45930) 
+2023-06-26 18:39:47,005 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,005 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,005 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:47,005 DEBUG server Соединение с клиентом ('127.0.0.1', 45930) закрывается. 
+2023-06-26 18:39:47,573 INFO server Установлено соедение с клиентом ('127.0.0.1', 45944) 
+2023-06-26 18:39:47,573 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,574 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,574 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:47,574 DEBUG server Соединение с клиентом ('127.0.0.1', 45944) закрывается. 
+2023-06-26 18:39:48,162 INFO server Установлено соедение с клиентом ('127.0.0.1', 45948) 
+2023-06-26 18:39:48,162 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,162 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,162 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:48,162 DEBUG server Соединение с клиентом ('127.0.0.1', 45948) закрывается. 
+2023-06-26 18:39:48,692 INFO server Установлено соедение с клиентом ('127.0.0.1', 45962) 
+2023-06-26 18:39:48,692 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,692 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,693 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:48,693 DEBUG server Соединение с клиентом ('127.0.0.1', 45962) закрывается. 
+2023-06-26 18:39:49,217 INFO server Установлено соедение с клиентом ('127.0.0.1', 45968) 
+2023-06-26 18:39:49,217 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,217 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,218 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:49,218 DEBUG server Соединение с клиентом ('127.0.0.1', 45968) закрывается. 
+2023-06-26 18:39:49,766 INFO server Установлено соедение с клиентом ('127.0.0.1', 45978) 
+2023-06-26 18:39:49,767 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,767 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,767 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:49,767 DEBUG server Соединение с клиентом ('127.0.0.1', 45978) закрывается. 
+2023-06-26 18:39:50,301 INFO server Установлено соедение с клиентом ('127.0.0.1', 45994) 
+2023-06-26 18:39:50,301 DEBUG server Получено сообщение {'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:50,301 DEBUG server Processing client message : {'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:50,301 INFO server Cформирован ответ клиенту {'response': 200} 
+2023-06-26 18:39:50,301 DEBUG server Соединение с клиентом ('127.0.0.1', 45994) закрывается. 

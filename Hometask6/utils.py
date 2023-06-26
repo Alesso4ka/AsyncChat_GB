@@ -1,6 +1,6 @@
 import json
 
-from HW_6.decor import log
+from decor import log
 from config import MAX_SIZE_MSG, ENCODING
 
 

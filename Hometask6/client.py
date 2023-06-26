@@ -2,7 +2,7 @@ import argparse
 import json
 import socket
 import time
-from HW_6.decor import log
+from decor import log
 from config import ACTION, PRESENCE, TIME, USER, ACCOUNT_NAME, STATUS, \
     RESPONSE, ERROR, DEFAULT_IP_ADDRESS, DEFAULT_PORT
 from utils import get_message, send_message

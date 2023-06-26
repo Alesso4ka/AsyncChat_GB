@@ -1,7 +1,7 @@
 import argparse
 import socket
 import json
-from HW_6.decor import log
+from decor import log
 from config import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, \
     PRESENCE, TIME, USER, ERROR, DEFAULT_PORT, DEFAULT_IP_ADDRESS
 from utils import get_message, send_message

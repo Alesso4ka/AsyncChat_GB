@@ -1,6 +1,6 @@
 import inspect
 from functools import wraps
-from HW_6.log.client_log_config import logger
+from log.client_log_config import logger
 
 
 def log(func):
