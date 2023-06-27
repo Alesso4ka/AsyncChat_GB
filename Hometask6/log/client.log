@@ -1,0 +1,218 @@
+2023-06-26 18:39:33,001 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:33,002 DEBUG decor Function parse_args((), {}), return Namespace(port=7777, addr='127.0.0.1') 
+2023-06-26 18:39:43,988 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:43,988 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:43,988 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:43,988 DEBUG client Сообщение {'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:43,989 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:43,989 INFO client Запрос отправлен 
+2023-06-26 18:39:43,989 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45070), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:43,989 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45070)>,), {}), return {'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:43,989 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801183.9889064, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:43,989 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45070)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:43,989 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45070), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:43,989 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:43,989 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:43,989 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:43,989 INFO client Ответ получен 
+2023-06-26 18:39:43,990 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:43,990 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:43,990 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:46,264 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:46,264 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:46,264 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:46,264 DEBUG client Сообщение {'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:46,264 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:46,264 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:46,264 INFO client Запрос отправлен 
+2023-06-26 18:39:46,265 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:46,265 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:46,265 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45926), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:46,265 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45926)>,), {}), return {'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:46,265 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:46,265 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801186.2647583, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:46,265 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:46,265 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45926)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:46,265 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:46,265 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45926), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:46,265 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:46,265 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:46,265 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:46,265 INFO client Ответ получен 
+2023-06-26 18:39:46,265 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:46,266 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:46,266 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:47,004 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:47,004 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:47,004 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:47,004 DEBUG client Сообщение {'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:47,005 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:47,005 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,005 INFO client Запрос отправлен 
+2023-06-26 18:39:47,005 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:47,005 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:47,005 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45930), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:47,005 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45930)>,), {}), return {'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,005 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:47,005 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801187.004894, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:47,005 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:47,005 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45930)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:47,005 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:47,005 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45930), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:47,005 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:47,005 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:47,006 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:47,006 INFO client Ответ получен 
+2023-06-26 18:39:47,006 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:47,006 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:47,006 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:47,573 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:47,573 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:47,573 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:47,573 DEBUG client Сообщение {'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:47,573 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:47,573 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,573 INFO client Запрос отправлен 
+2023-06-26 18:39:47,573 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:47,573 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:47,573 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45944)>,), {}), return {'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:47,573 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45944), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:47,574 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:47,574 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801187.573403, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:47,574 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:47,574 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:47,574 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45944)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:47,574 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45944), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:47,574 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:47,574 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:47,574 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:47,574 INFO client Ответ получен 
+2023-06-26 18:39:47,574 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:47,575 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:47,575 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:48,161 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:48,162 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:48,162 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:48,162 DEBUG client Сообщение {'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:48,162 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:48,162 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,162 INFO client Запрос отправлен 
+2023-06-26 18:39:48,162 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:48,162 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:48,162 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45948), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:48,162 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45948)>,), {}), return {'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,162 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:48,162 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801188.1621726, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:48,162 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:48,162 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45948)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:48,163 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:48,163 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45948), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:48,163 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:48,163 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:48,163 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:48,163 INFO client Ответ получен 
+2023-06-26 18:39:48,163 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:48,163 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:48,163 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:48,692 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:48,692 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:48,692 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:48,692 DEBUG client Сообщение {'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:48,692 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:48,692 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,692 INFO client Запрос отправлен 
+2023-06-26 18:39:48,692 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:48,692 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:48,692 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45962), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:48,692 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45962)>,), {}), return {'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:48,693 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:48,693 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801188.6924026, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:48,693 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:48,693 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45962)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:48,693 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:48,693 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45962), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:48,693 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:48,693 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:48,693 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:48,693 INFO client Ответ получен 
+2023-06-26 18:39:48,693 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:48,693 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:48,693 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:49,216 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:49,217 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:49,217 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:49,217 DEBUG client Сообщение {'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:49,217 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:49,217 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,217 INFO client Запрос отправлен 
+2023-06-26 18:39:49,217 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:49,217 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:49,217 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45968)>,), {}), return {'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,217 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45968), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:49,217 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:49,217 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801189.2172046, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:49,218 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:49,218 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:49,218 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45968)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:49,218 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45968), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:49,218 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:49,218 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:49,218 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:49,218 INFO client Ответ получен 
+2023-06-26 18:39:49,218 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:49,218 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:49,218 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:49,766 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:49,766 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:49,766 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:49,766 DEBUG client Сообщение {'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:49,766 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:49,766 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,766 INFO client Запрос отправлен 
+2023-06-26 18:39:49,767 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:49,767 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:49,767 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45978), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:49,767 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45978)>,), {}), return {'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:49,767 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:49,767 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801189.766732, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:49,767 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:49,767 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:49,767 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45978)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:49,767 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45978), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:49,767 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:49,767 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:49,767 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:49,767 INFO client Ответ получен 
+2023-06-26 18:39:49,767 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:49,768 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:49,768 DEBUG decor Function main((), {}), return None 
+2023-06-26 18:39:50,300 DEBUG decor Function parse_args was called from main 
+2023-06-26 18:39:50,300 DEBUG decor Function parse_args((), {}), return Namespace(addr='127.0.0.1', port=7777) 
+2023-06-26 18:39:50,300 INFO client Соединение с сервером установлено 
+2023-06-26 18:39:50,301 DEBUG client Сообщение {'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}} для пользователя Guest сформировано 
+2023-06-26 18:39:50,301 DEBUG decor Function create_presence was called from main 
+2023-06-26 18:39:50,301 DEBUG decor Function create_presence((), {}), return {'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:50,301 INFO client Запрос отправлен 
+2023-06-26 18:39:50,301 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:50,301 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:50,301 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45994)>,), {}), return {'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}} 
+2023-06-26 18:39:50,301 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45994), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}}), {}), return None 
+2023-06-26 18:39:50,301 DEBUG decor Function process_client_message was called from main 
+2023-06-26 18:39:50,301 DEBUG decor Function process_client_message(({'action': 'presence', 'time': 1687801190.3010042, 'user': {'account_name': 'Guest', 'status': 'online'}},), {}), return {'response': 200} 
+2023-06-26 18:39:50,301 DEBUG decor Function send_message was called from main 
+2023-06-26 18:39:50,301 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 45994)>, {'response': 200}), {}), return None 
+2023-06-26 18:39:50,301 DEBUG decor Function get_message was called from main 
+2023-06-26 18:39:50,301 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45994), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-06-26 18:39:50,302 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-06-26 18:39:50,302 DEBUG decor Function process_ans was called from main 
+2023-06-26 18:39:50,302 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-06-26 18:39:50,302 INFO client Ответ получен 
+2023-06-26 18:39:50,302 INFO client Ответ 200 : OK успешно обработан 
+2023-06-26 18:39:50,302 DEBUG decor Function main was called from <module> 
+2023-06-26 18:39:50,302 DEBUG decor Function main((), {}), return None 
