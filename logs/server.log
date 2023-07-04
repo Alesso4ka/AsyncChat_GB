@@ -1,0 +1,3 @@
+[04.07.2023 14:59:06] [INFO] [server_log_config] [Вызвана функция start, с параметрами args = ('', 7777), kwargs = {},	[вызывающий модуль /home/nord/GIT_Kate/AsyncChat_Other/server.py]	[вызывающая функция <module>]	[вызвана в строке 58]	]
+[04.07.2023 15:09:38] [INFO] [server_log_config] [Вызвана функция start, с параметрами args = ('', 7777), kwargs = {},	[вызывающий модуль /home/nord/GIT_Kate/AsyncChat_Other/server.py]	[вызывающая функция <module>]	[вызвана в строке 58]	]
+[04.07.2023 15:11:52] [INFO] [server_log_config] [Вызвана функция start, с параметрами args = ('', 7777), kwargs = {},	[вызывающий модуль /home/nord/GIT_Kate/AsyncChat_Kate/server.py]	[вызывающая функция <module>]	[вызвана в строке 58]	]
