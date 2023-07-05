@@ -1,0 +1,126 @@
+2023-07-04 15:20:15,344 DEBUG decor Function parse_args was called from main 
+2023-07-04 15:20:15,344 DEBUG decor Function parse_args((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-04 15:20:18,101 INFO client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Alice 
+2023-07-04 15:20:18,101 DEBUG client Сообщение {'action': 'presence', 'time': 1688480418.1016526, 'user': {'account_name': 'Alice', 'status': 'online'}} для пользователя Alice сформировано 
+2023-07-04 15:20:18,102 DEBUG decor Function create_presence was called from main 
+2023-07-04 15:20:18,102 DEBUG decor Function create_presence(('Alice',), {}), return {'action': 'presence', 'time': 1688480418.1016526, 'user': {'account_name': 'Alice', 'status': 'online'}} 
+2023-07-04 15:20:18,102 DEBUG decor Function send_message was called from main 
+2023-07-04 15:20:18,102 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688480418.1016526, 'user': {'account_name': 'Alice', 'status': 'online'}}), {}), return None 
+2023-07-04 15:20:19,104 DEBUG decor Function get_message was called from main 
+2023-07-04 15:20:19,104 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-07-04 15:20:19,104 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-07-04 15:20:19,104 DEBUG decor Function process_ans was called from main 
+2023-07-04 15:20:19,104 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-07-04 15:20:19,104 INFO client Установлено соединение с сервером. Ответ сервера: b'200 : OK' 
+2023-07-04 15:20:19,105 DEBUG client Запущены процессы 
+2023-07-04 15:20:32,379 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Alice', 'to': 'Alice', 'time': 1688480432.379838, 'message_text': 'Hello to myself'} 
+2023-07-04 15:20:32,385 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:20:32,385 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Alice', 'to': 'Alice', 'time': 1688480432.379838, 'message_text': 'Hello to myself'}), {}), return None 
+2023-07-04 15:20:32,385 INFO client Отправлено сообщение пользователю Alice 
+2023-07-04 15:20:32,385 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:20:32,386 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:20:33,120 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:20:33,120 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Alice', 'to': 'Alice', 'time': 1688480432.379838, 'message_text': 'Hello to myself'} 
+2023-07-04 15:20:33,121 INFO client Получено сообщение от пользователя Alice:
+Hello to myself 
+2023-07-04 15:20:37,656 DEBUG decor Function parse_args was called from main 
+2023-07-04 15:20:37,656 DEBUG decor Function parse_args((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-04 15:20:38,925 INFO client Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Kate 
+2023-07-04 15:20:38,925 DEBUG client Сообщение {'action': 'presence', 'time': 1688480438.9255624, 'user': {'account_name': 'Kate', 'status': 'online'}} для пользователя Kate сформировано 
+2023-07-04 15:20:38,925 DEBUG decor Function create_presence was called from main 
+2023-07-04 15:20:38,926 DEBUG decor Function create_presence(('Kate',), {}), return {'action': 'presence', 'time': 1688480438.9255624, 'user': {'account_name': 'Kate', 'status': 'online'}} 
+2023-07-04 15:20:38,926 DEBUG decor Function send_message was called from main 
+2023-07-04 15:20:38,926 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688480438.9255624, 'user': {'account_name': 'Kate', 'status': 'online'}}), {}), return None 
+2023-07-04 15:20:39,927 DEBUG decor Function get_message was called from main 
+2023-07-04 15:20:39,927 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>,), {}), return {'response': 200} 
+2023-07-04 15:20:39,927 INFO client Разбор сообщения от сервера: {'response': 200} 
+2023-07-04 15:20:39,928 DEBUG decor Function process_ans was called from main 
+2023-07-04 15:20:39,928 DEBUG decor Function process_ans(({'response': 200},), {}), return 200 : OK 
+2023-07-04 15:20:39,928 INFO client Установлено соединение с сервером. Ответ сервера: b'200 : OK' 
+2023-07-04 15:20:39,928 DEBUG client Запущены процессы 
+2023-07-04 15:20:47,623 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480447.6237411, 'message_text': 'Hi Alice'} 
+2023-07-04 15:20:47,624 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:20:47,625 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480447.6237411, 'message_text': 'Hi Alice'}), {}), return None 
+2023-07-04 15:20:47,625 INFO client Отправлено сообщение пользователю Alice 
+2023-07-04 15:20:47,625 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:20:47,625 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, 'Kate'), {}), return None 
+2023-07-04 15:20:47,939 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:20:47,939 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480447.6237411, 'message_text': 'Hi Alice'} 
+2023-07-04 15:20:47,939 INFO client Получено сообщение от пользователя Kate:
+Hi Alice 
+2023-07-04 15:20:56,682 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Alice', 'to': 'Kaate', 'time': 1688480456.6822248, 'message_text': 'q'} 
+2023-07-04 15:20:56,682 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:20:56,683 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Alice', 'to': 'Kaate', 'time': 1688480456.6822248, 'message_text': 'q'}), {}), return None 
+2023-07-04 15:20:56,683 INFO client Отправлено сообщение пользователю Kaate 
+2023-07-04 15:20:56,683 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:20:56,683 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:21:03,661 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480463.6617265, 'message_text': 'Hi Kate!'} 
+2023-07-04 15:21:03,662 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:21:03,662 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480463.6617265, 'message_text': 'Hi Kate!'}), {}), return None 
+2023-07-04 15:21:03,662 INFO client Отправлено сообщение пользователю Kate 
+2023-07-04 15:21:03,663 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:21:03,663 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:21:03,962 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:21:03,962 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480463.6617265, 'message_text': 'Hi Kate!'} 
+2023-07-04 15:21:03,962 INFO client Получено сообщение от пользователя Alice:
+Hi Kate! 
+2023-07-04 15:21:12,017 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480472.0177996, 'message_text': 'How are you?'} 
+2023-07-04 15:21:12,018 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:21:12,018 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480472.0177996, 'message_text': 'How are you?'}), {}), return None 
+2023-07-04 15:21:12,018 INFO client Отправлено сообщение пользователю Kate 
+2023-07-04 15:21:12,019 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:21:12,019 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:21:12,973 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:21:12,973 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480472.0177996, 'message_text': 'How are you?'} 
+2023-07-04 15:21:12,973 INFO client Получено сообщение от пользователя Alice:
+How are you? 
+2023-07-04 15:21:34,472 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480494.4728074, 'message_text': 'Fine thank you'} 
+2023-07-04 15:21:34,473 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:21:34,473 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480494.4728074, 'message_text': 'Fine thank you'}), {}), return None 
+2023-07-04 15:21:34,473 INFO client Отправлено сообщение пользователю Alice 
+2023-07-04 15:21:34,474 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:21:34,474 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, 'Kate'), {}), return None 
+2023-07-04 15:21:34,996 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:21:34,996 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480494.4728074, 'message_text': 'Fine thank you'} 
+2023-07-04 15:21:34,996 INFO client Получено сообщение от пользователя Kate:
+Fine thank you 
+2023-07-04 15:21:44,689 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480504.6893566, 'message_text': 'Bay'} 
+2023-07-04 15:21:44,690 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:21:44,690 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480504.6893566, 'message_text': 'Bay'}), {}), return None 
+2023-07-04 15:21:44,690 INFO client Отправлено сообщение пользователю Alice 
+2023-07-04 15:21:44,690 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:21:44,690 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, 'Kate'), {}), return None 
+2023-07-04 15:21:45,007 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:21:45,007 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1688480504.6893566, 'message_text': 'Bay'} 
+2023-07-04 15:21:45,007 INFO client Получено сообщение от пользователя Kate:
+Bay 
+2023-07-04 15:21:52,581 DEBUG client Сформирован словарь сообщения: {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480512.5816195, 'message_text': 'Goodbay'} 
+2023-07-04 15:21:52,582 DEBUG decor Function send_message was called from create_message 
+2023-07-04 15:21:52,582 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480512.5816195, 'message_text': 'Goodbay'}), {}), return None 
+2023-07-04 15:21:52,582 INFO client Отправлено сообщение пользователю Kate 
+2023-07-04 15:21:52,582 DEBUG decor Function create_message was called from user_active 
+2023-07-04 15:21:52,583 DEBUG decor Function create_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:21:53,019 DEBUG decor Function get_message was called from message_from_server 
+2023-07-04 15:21:53,019 DEBUG decor Function get_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>,), {}), return {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1688480512.5816195, 'message_text': 'Goodbay'} 
+2023-07-04 15:21:53,019 INFO client Получено сообщение от пользователя Alice:
+Goodbay 
+2023-07-04 15:21:54,128 DEBUG decor Function exit_msg was called from user_active 
+2023-07-04 15:21:54,128 DEBUG decor Function exit_msg(('Alice',), {}), return {'action': 'exit', 'time': 1688480514.1279156, 'account_name': 'Alice', 'status': 'status'} 
+2023-07-04 15:21:54,128 DEBUG decor Function send_message was called from user_active 
+2023-07-04 15:21:54,129 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1688480514.1279156, 'account_name': 'Alice', 'status': 'status'}), {}), return None 
+2023-07-04 15:21:54,129 INFO client Завершение работы клиента по команде пользователя. 
+2023-07-04 15:21:55,023 CRITICAL client Потеряно соединение с сервером. 
+2023-07-04 15:21:55,023 DEBUG decor Function message_from_server was called from run 
+2023-07-04 15:21:55,023 DEBUG decor Function message_from_server((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:21:55,130 DEBUG decor Function user_active was called from run 
+2023-07-04 15:21:55,130 DEBUG decor Function user_active((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49776), raddr=('127.0.0.1', 7777)>, 'Alice'), {}), return None 
+2023-07-04 15:21:57,153 DEBUG decor Function exit_msg was called from user_active 
+2023-07-04 15:21:57,153 DEBUG decor Function exit_msg(('Kate',), {}), return {'action': 'exit', 'time': 1688480517.1527913, 'account_name': 'Kate', 'status': 'status'} 
+2023-07-04 15:21:57,153 DEBUG decor Function send_message was called from user_active 
+2023-07-04 15:21:57,153 DEBUG decor Function send_message((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1688480517.1527913, 'account_name': 'Kate', 'status': 'status'}), {}), return None 
+2023-07-04 15:21:57,154 INFO client Завершение работы клиента по команде пользователя. 
+2023-07-04 15:21:58,027 CRITICAL client Потеряно соединение с сервером. 
+2023-07-04 15:21:58,027 DEBUG decor Function message_from_server was called from run 
+2023-07-04 15:21:58,027 DEBUG decor Function message_from_server((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, 'Kate'), {}), return None 
+2023-07-04 15:21:58,154 DEBUG decor Function user_active was called from run 
+2023-07-04 15:21:58,154 DEBUG decor Function user_active((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 45218), raddr=('127.0.0.1', 7777)>, 'Kate'), {}), return None 
