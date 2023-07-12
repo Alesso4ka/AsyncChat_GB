@@ -1,0 +1,162 @@
+2023-07-12 16:44:50,380 DEBUG decor Function arg_parser was called from main 
+2023-07-12 16:44:50,380 DEBUG decor Function arg_parser((), {}), return ('', 7777) 
+2023-07-12 16:44:50,381 INFO server Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-12 16:47:23,074 INFO server Установлено соедение с ПК ('127.0.0.1', 49264) 
+2023-07-12 16:47:23,575 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:47:23,575 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>,), {}), return {'action': 'presence', 'time': 1689176843.0739837, 'user': {'account_name': 'nick1'}} 
+2023-07-12 16:47:23,575 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689176843.0739837, 'user': {'account_name': 'nick1'}} 
+2023-07-12 16:47:23,576 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:47:23,576 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>, {'response': 200}), {}), return None 
+2023-07-12 16:47:33,111 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:47:33,111 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>,), {}), return {'action': 'get_contacts', 'account_name': 'nick1', 'time': 1689176853.0223157} 
+2023-07-12 16:47:33,111 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'nick1', 'time': 1689176853.0223157} 
+2023-07-12 16:47:33,115 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:47:33,115 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>, {'response': 202, 'alert': []}), {}), return None 
+2023-07-12 16:47:50,139 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:47:50,140 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>,), {}), return {'action': 'add_contact', 'time': 1689176867.4292321, 'account_name': 'nick1', 'user_id': 'nick123'} 
+2023-07-12 16:47:50,140 DEBUG server Разбор сообщения от клиента : {'action': 'add_contact', 'time': 1689176867.4292321, 'account_name': 'nick1', 'user_id': 'nick123'} 
+2023-07-12 16:47:50,142 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:47:50,142 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>, {'response': 200}), {}), return None 
+2023-07-12 16:47:56,151 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:47:56,151 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>,), {}), return {'action': 'get_contacts', 'account_name': 'nick1', 'time': 1689176875.8147702} 
+2023-07-12 16:47:56,151 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'nick1', 'time': 1689176875.8147702} 
+2023-07-12 16:47:56,154 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:47:56,154 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>, {'response': 202, 'alert': []}), {}), return None 
+2023-07-12 16:48:13,178 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:48:13,178 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>,), {}), return {'action': 'add_contact', 'time': 1689176890.9249237, 'account_name': 'nick1', 'user_id': 'nick2'} 
+2023-07-12 16:48:13,178 DEBUG server Разбор сообщения от клиента : {'action': 'add_contact', 'time': 1689176890.9249237, 'account_name': 'nick1', 'user_id': 'nick2'} 
+2023-07-12 16:48:13,181 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:48:13,181 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>, {'response': 200}), {}), return None 
+2023-07-12 16:48:18,188 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:48:18,189 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>,), {}), return {'action': 'get_contacts', 'account_name': 'nick1', 'time': 1689176897.9328628} 
+2023-07-12 16:48:18,189 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'nick1', 'time': 1689176897.9328628} 
+2023-07-12 16:48:18,192 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:48:18,192 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49264)>, {'response': 202, 'alert': []}), {}), return None 
+2023-07-12 16:48:20,195 INFO server Клиент ('127.0.0.1', 49264) отключился от сервера. 
+2023-07-12 16:53:05,246 INFO server Установлено соедение с ПК ('127.0.0.1', 42044) 
+2023-07-12 16:53:05,747 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:53:05,747 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42044)>,), {}), return {'action': 'presence', 'time': 1689177185.2460392, 'user': {'account_name': 'Kate'}} 
+2023-07-12 16:53:05,747 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689177185.2460392, 'user': {'account_name': 'Kate'}} 
+2023-07-12 16:53:05,748 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:53:05,748 DEBUG decor Function send_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42044)>, {'response': 200}), {}), return None 
+2023-07-12 16:53:17,784 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:53:17,785 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42044)>,), {}), return {'action': 'get_contacts', 'account_name': 'Kate', 'time': 1689177197.295595} 
+2023-07-12 16:53:17,785 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Kate', 'time': 1689177197.295595} 
+2023-07-12 16:53:17,789 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:53:17,789 DEBUG decor Function send_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42044)>, {'response': 202, 'alert': []}), {}), return None 
+2023-07-12 16:53:23,776 INFO server Установлено соедение с ПК ('127.0.0.1', 42504) 
+2023-07-12 16:53:24,277 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:53:24,277 DEBUG decor Function get_message((<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42504)>,), {}), return {'action': 'presence', 'time': 1689177203.7763093, 'user': {'account_name': 'Alice'}} 
+2023-07-12 16:53:24,277 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689177203.7763093, 'user': {'account_name': 'Alice'}} 
+2023-07-12 16:53:24,278 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 16:53:24,278 DEBUG decor Function send_message((<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42504)>, {'response': 200}), {}), return None 
+2023-07-12 16:53:33,805 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:53:33,805 DEBUG decor Function get_message((<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42504)>,), {}), return {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1689177213.6267498, 'message_text': 'Hello Kate'} 
+2023-07-12 16:53:33,805 DEBUG server Разбор сообщения от клиента : {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1689177213.6267498, 'message_text': 'Hello Kate'} 
+2023-07-12 16:53:33,806 DEBUG decor Function send_message was called from process_message 
+2023-07-12 16:53:33,806 DEBUG decor Function send_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42044)>, {'action': 'message', 'from': 'Alice', 'to': 'Kate', 'time': 1689177213.6267498, 'message_text': 'Hello Kate'}), {}), return None 
+2023-07-12 16:53:33,806 INFO server Отправлено сообщение пользователю Kate от пользователя Alice. 
+2023-07-12 16:53:42,819 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 16:53:42,819 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42044)>,), {}), return {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1689177222.3242657, 'message_text': 'Ololo 123'} 
+2023-07-12 16:53:42,819 DEBUG server Разбор сообщения от клиента : {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1689177222.3242657, 'message_text': 'Ololo 123'} 
+2023-07-12 16:53:42,820 DEBUG decor Function send_message was called from process_message 
+2023-07-12 16:53:42,820 DEBUG decor Function send_message((<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 42504)>, {'action': 'message', 'from': 'Kate', 'to': 'Alice', 'time': 1689177222.3242657, 'message_text': 'Ololo 123'}), {}), return None 
+2023-07-12 16:53:42,820 INFO server Отправлено сообщение пользователю Alice от пользователя Kate. 
+2023-07-12 17:04:20,157 DEBUG decor Function arg_parser was called from main 
+2023-07-12 17:04:20,157 DEBUG decor Function arg_parser((), {}), return ('', 7777) 
+2023-07-12 17:04:20,159 INFO server Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-12 17:13:53,467 DEBUG decor Function arg_parser was called from main 
+2023-07-12 17:13:53,467 DEBUG decor Function arg_parser((), {}), return ('', 7777) 
+2023-07-12 17:13:53,468 INFO server Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-12 17:14:00,793 INFO server Установлено соедение с ПК ('127.0.0.1', 48422) 
+2023-07-12 17:14:01,295 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:01,295 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'presence', 'time': 1689178440.7938385, 'user': {'account_name': 'Alice'}} 
+2023-07-12 17:14:01,295 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689178440.7938385, 'user': {'account_name': 'Alice'}} 
+2023-07-12 17:14:01,296 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:01,296 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 200}), {}), return None 
+2023-07-12 17:14:20,179 INFO server Установлено соедение с ПК ('127.0.0.1', 59428) 
+2023-07-12 17:14:20,179 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:20,179 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>,), {}), return {'action': 'presence', 'time': 1689178460.1791716, 'user': {'account_name': 'Kate'}} 
+2023-07-12 17:14:20,179 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689178460.1791716, 'user': {'account_name': 'Kate'}} 
+2023-07-12 17:14:20,179 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:20,179 DEBUG decor Function send_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>, {'response': 200}), {}), return None 
+2023-07-12 17:14:26,189 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:26,189 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>,), {}), return {'action': 'add_contact', 'time': 1689178462.8074677, 'account_name': 'Kate', 'user_id': 'Alice'} 
+2023-07-12 17:14:26,189 DEBUG server Разбор сообщения от клиента : {'action': 'add_contact', 'time': 1689178462.8074677, 'account_name': 'Kate', 'user_id': 'Alice'} 
+2023-07-12 17:14:26,205 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:26,206 DEBUG decor Function send_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>, {'response': 200}), {}), return None 
+2023-07-12 17:14:36,220 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:36,220 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>,), {}), return {'action': 'get_contacts', 'account_name': 'Kate', 'time': 1689178476.1914127} 
+2023-07-12 17:14:36,220 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Kate', 'time': 1689178476.1914127} 
+2023-07-12 17:14:36,226 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:36,226 DEBUG decor Function send_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>, {'response': 202, 'alert': ['Alice']}), {}), return None 
+2023-07-12 17:14:44,738 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:44,738 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'add_contact', 'time': 1689178483.0965877, 'account_name': 'Alice', 'user_id': 'Kate'} 
+2023-07-12 17:14:44,738 DEBUG server Разбор сообщения от клиента : {'action': 'add_contact', 'time': 1689178483.0965877, 'account_name': 'Alice', 'user_id': 'Kate'} 
+2023-07-12 17:14:44,801 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:44,801 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 200}), {}), return None 
+2023-07-12 17:14:50,309 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:50,309 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178490.1427708} 
+2023-07-12 17:14:50,309 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178490.1427708} 
+2023-07-12 17:14:50,313 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:50,313 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 202, 'alert': ['Kate']}), {}), return None 
+2023-07-12 17:14:56,822 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:14:56,822 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'add_contact', 'time': 1689178493.393409, 'account_name': 'Alice', 'user_id': 'Andrey'} 
+2023-07-12 17:14:56,822 DEBUG server Разбор сообщения от клиента : {'action': 'add_contact', 'time': 1689178493.393409, 'account_name': 'Alice', 'user_id': 'Andrey'} 
+2023-07-12 17:14:56,825 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:14:56,825 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 200}), {}), return None 
+2023-07-12 17:15:00,831 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:00,832 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178500.6907566} 
+2023-07-12 17:15:00,832 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178500.6907566} 
+2023-07-12 17:15:00,834 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:00,835 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 202, 'alert': ['Kate']}), {}), return None 
+2023-07-12 17:15:11,742 INFO server Установлено соедение с ПК ('127.0.0.1', 57284) 
+2023-07-12 17:15:11,742 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:11,742 DEBUG decor Function get_message((<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57284)>,), {}), return {'action': 'presence', 'time': 1689178511.7421215, 'user': {'account_name': 'Andrey'}} 
+2023-07-12 17:15:11,742 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689178511.7421215, 'user': {'account_name': 'Andrey'}} 
+2023-07-12 17:15:11,742 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:11,742 DEBUG decor Function send_message((<socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57284)>, {'response': 200}), {}), return None 
+2023-07-12 17:15:18,816 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:18,816 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'add_contact', 'time': 1689178516.3721862, 'account_name': 'Alice', 'user_id': 'Andrey'} 
+2023-07-12 17:15:18,816 DEBUG server Разбор сообщения от клиента : {'action': 'add_contact', 'time': 1689178516.3721862, 'account_name': 'Alice', 'user_id': 'Andrey'} 
+2023-07-12 17:15:18,830 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:18,830 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 200}), {}), return None 
+2023-07-12 17:15:27,843 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:27,844 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178527.6942372} 
+2023-07-12 17:15:27,844 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178527.6942372} 
+2023-07-12 17:15:27,847 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:27,848 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 202, 'alert': ['Kate', 'Andrey']}), {}), return None 
+2023-07-12 17:15:44,370 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:44,370 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178544.331524} 
+2023-07-12 17:15:44,370 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178544.331524} 
+2023-07-12 17:15:44,373 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:44,373 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 202, 'alert': ['Kate', 'Andrey']}), {}), return None 
+2023-07-12 17:15:50,883 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:50,883 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'del_contact', 'time': 1689178549.1605494, 'account_name': 'Alice', 'user_id': 'Andrey'} 
+2023-07-12 17:15:50,883 DEBUG server Разбор сообщения от клиента : {'action': 'del_contact', 'time': 1689178549.1605494, 'account_name': 'Alice', 'user_id': 'Andrey'} 
+2023-07-12 17:15:50,898 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:50,898 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 200}), {}), return None 
+2023-07-12 17:15:54,904 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:15:54,905 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178554.6224656} 
+2023-07-12 17:15:54,905 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178554.6224656} 
+2023-07-12 17:15:54,908 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:15:54,908 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>, {'response': 202, 'alert': ['Kate']}), {}), return None 
+2023-07-12 17:16:05,924 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:16:05,924 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48422)>,), {}), return {'action': 'exit', 'time': 1689178565.5227168, 'account_name': 'Alice'} 
+2023-07-12 17:16:05,924 DEBUG server Разбор сообщения от клиента : {'action': 'exit', 'time': 1689178565.5227168, 'account_name': 'Alice'} 
+2023-07-12 17:16:12,434 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:16:12,434 DEBUG decor Function get_message((<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59428)>,), {}), return {'action': 'exit', 'time': 1689178572.0141592, 'account_name': 'Kate'} 
+2023-07-12 17:16:12,434 DEBUG server Разбор сообщения от клиента : {'action': 'exit', 'time': 1689178572.0141592, 'account_name': 'Kate'} 
+2023-07-12 17:16:22,077 INFO server Установлено соедение с ПК ('127.0.0.1', 51654) 
+2023-07-12 17:16:22,077 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:16:22,077 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51654)>,), {}), return {'action': 'presence', 'time': 1689178582.0773923, 'user': {'account_name': 'Alice'}} 
+2023-07-12 17:16:22,077 DEBUG server Разбор сообщения от клиента : {'action': 'presence', 'time': 1689178582.0773923, 'user': {'account_name': 'Alice'}} 
+2023-07-12 17:16:22,077 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:16:22,077 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51654)>, {'response': 200}), {}), return None 
+2023-07-12 17:16:28,086 DEBUG decor Function get_message was called from main_loop 
+2023-07-12 17:16:28,086 DEBUG decor Function get_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51654)>,), {}), return {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178587.7358758} 
+2023-07-12 17:16:28,087 DEBUG server Разбор сообщения от клиента : {'action': 'get_contacts', 'account_name': 'Alice', 'time': 1689178587.7358758} 
+2023-07-12 17:16:28,089 DEBUG decor Function send_message was called from process_client_message 
+2023-07-12 17:16:28,089 DEBUG decor Function send_message((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51654)>, {'response': 202, 'alert': ['Kate']}), {}), return None 
+2023-07-12 17:16:29,592 INFO server Клиент ('127.0.0.1', 51654) отключился от сервера. 
+2023-07-12 17:16:33,097 INFO server Клиент ('127.0.0.1', 57284) отключился от сервера. 
