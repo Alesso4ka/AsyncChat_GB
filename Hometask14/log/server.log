@@ -1,0 +1,163 @@
+2023-07-27 19:46:59,846 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 19:46:59,846 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-27 19:47:17,965 DEBUG decor Function config_load was called from main 
+2023-07-27 19:47:17,966 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f982991b0d0> 
+2023-07-27 19:47:17,966 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 19:47:17,970 DEBUG server Аргументы успешно загружены. 
+2023-07-27 19:47:17,970 DEBUG decor Function arg_parser was called from main 
+2023-07-27 19:47:17,970 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 19:53:45,971 DEBUG decor Function config_load was called from main 
+2023-07-27 19:53:45,971 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f1fa226ee90> 
+2023-07-27 19:53:45,972 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 19:53:45,975 DEBUG server Аргументы успешно загружены. 
+2023-07-27 19:53:45,976 DEBUG decor Function arg_parser was called from main 
+2023-07-27 19:53:45,976 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 19:59:24,496 DEBUG decor Function config_load was called from main 
+2023-07-27 19:59:24,496 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f59df592d50> 
+2023-07-27 19:59:24,496 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 19:59:24,499 DEBUG server Аргументы успешно загружены. 
+2023-07-27 19:59:24,499 DEBUG decor Function arg_parser was called from main 
+2023-07-27 19:59:24,499 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 19:59:24,555 INFO core Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: .
+ Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-27 19:59:45,967 DEBUG decor Function main was called from <module> 
+2023-07-27 19:59:45,967 DEBUG decor Function main((), {}), return None 
+2023-07-27 19:59:53,546 DEBUG decor Function config_load was called from main 
+2023-07-27 19:59:53,547 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f76b04ef150> 
+2023-07-27 19:59:53,547 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 19:59:53,550 DEBUG server Аргументы успешно загружены. 
+2023-07-27 19:59:53,550 DEBUG decor Function arg_parser was called from main 
+2023-07-27 19:59:53,550 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 19:59:53,624 INFO core Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: .
+ Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-27 20:00:08,829 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:00:08,829 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-27 20:00:11,662 INFO core Установлено соедение с ПК ('127.0.0.1', 59934) 
+2023-07-27 20:00:11,662 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:00:11,662 DEBUG decor Function send_message((<socket.socket fd=21, family=2, type=1, proto=0, laddr=('127.0.0.1', 59934), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690484411.6620736, 'user': {'account_name': 'Kate'}}), {}), return None 
+2023-07-27 20:00:11,663 DEBUG decor Function get_message was called from run 
+2023-07-27 20:00:11,663 DEBUG decor Function get_message((<socket.socket fd=13, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 59934)>,), {}), return {'action': 'presence', 'time': 1690484411.6620736, 'user': {'account_name': 'Kate'}} 
+2023-07-27 20:00:11,663 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:00:11,663 INFO core Клиент ('127.0.0.1', 59934) отключился от сервера. 
+2023-07-27 20:05:31,154 DEBUG decor Function config_load was called from main 
+2023-07-27 20:05:31,155 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7fa1b21feed0> 
+2023-07-27 20:05:31,155 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 20:05:31,158 DEBUG server Аргументы успешно загружены. 
+2023-07-27 20:05:31,158 DEBUG decor Function arg_parser was called from main 
+2023-07-27 20:05:31,158 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 20:05:31,223 INFO core Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: .
+ Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-27 20:06:35,476 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:06:35,476 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-27 20:06:37,819 INFO core Установлено соедение с ПК ('127.0.0.1', 34218) 
+2023-07-27 20:06:37,820 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:06:37,820 DEBUG decor Function send_message((<socket.socket fd=19, family=2, type=1, proto=0, laddr=('127.0.0.1', 34218), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690484797.8196023, 'user': {'account_name': 'Kate'}}), {}), return None 
+2023-07-27 20:06:37,820 DEBUG decor Function get_message was called from run 
+2023-07-27 20:06:37,820 DEBUG decor Function get_message((<socket.socket fd=15, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34218)>,), {}), return {'action': 'presence', 'time': 1690484797.8196023, 'user': {'account_name': 'Kate'}} 
+2023-07-27 20:06:37,820 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:06:37,821 INFO core Клиент ('127.0.0.1', 34218) отключился от сервера. 
+2023-07-27 20:06:41,769 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:06:41,769 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-27 20:06:43,281 INFO core Установлено соедение с ПК ('127.0.0.1', 34228) 
+2023-07-27 20:06:43,282 DEBUG decor Function get_message was called from run 
+2023-07-27 20:06:43,282 DEBUG decor Function get_message((<socket.socket fd=15, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 34228)>,), {}), return {'action': 'presence', 'time': 1690484803.2817938, 'user': {'account_name': 'admin'}} 
+2023-07-27 20:06:43,282 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:06:43,282 DEBUG decor Function send_message((<socket.socket fd=19, family=2, type=1, proto=0, laddr=('127.0.0.1', 34228), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690484803.2817938, 'user': {'account_name': 'admin'}}), {}), return None 
+2023-07-27 20:06:43,282 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:06:43,283 INFO core Клиент ('127.0.0.1', 34228) отключился от сервера. 
+2023-07-27 20:12:43,598 DEBUG decor Function main was called from <module> 
+2023-07-27 20:12:43,598 DEBUG decor Function main((), {}), return None 
+2023-07-27 20:15:21,427 DEBUG decor Function config_load was called from main 
+2023-07-27 20:15:21,427 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f3209b8eed0> 
+2023-07-27 20:15:21,427 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 20:15:21,430 DEBUG server Аргументы успешно загружены. 
+2023-07-27 20:15:21,431 DEBUG decor Function arg_parser was called from main 
+2023-07-27 20:15:21,431 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 20:15:21,505 INFO core Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: .
+ Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-27 20:17:56,375 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:17:56,375 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, None) 
+2023-07-27 20:18:00,411 INFO core Установлено соедение с ПК ('127.0.0.1', 57230) 
+2023-07-27 20:18:00,412 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:18:00,412 DEBUG decor Function send_message((<socket.socket fd=21, family=2, type=1, proto=0, laddr=('127.0.0.1', 57230), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690485480.4117506, 'user': {'account_name': 'Kate'}}), {}), return None 
+2023-07-27 20:18:00,412 DEBUG decor Function get_message was called from run 
+2023-07-27 20:18:00,412 DEBUG decor Function get_message((<socket.socket fd=13, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 57230)>,), {}), return {'action': 'presence', 'time': 1690485480.4117506, 'user': {'account_name': 'Kate'}} 
+2023-07-27 20:18:00,412 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:18:00,413 INFO core Клиент ('127.0.0.1', 57230) отключился от сервера. 
+2023-07-27 20:18:33,526 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:18:33,526 DEBUG decor Function arg_parser((), {}), return ('7777', 7777, 'Kate') 
+2023-07-27 20:19:00,867 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:19:00,867 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, 'Kate') 
+2023-07-27 20:19:00,951 INFO core Установлено соедение с ПК ('127.0.0.1', 48632) 
+2023-07-27 20:19:00,951 DEBUG decor Function get_message was called from run 
+2023-07-27 20:19:00,951 DEBUG decor Function get_message((<socket.socket fd=13, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48632)>,), {}), return {'action': 'presence', 'time': 1690485540.9514508, 'user': {'account_name': 'Kate'}} 
+2023-07-27 20:19:00,951 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:19:00,951 DEBUG decor Function send_message((<socket.socket fd=18, family=2, type=1, proto=0, laddr=('127.0.0.1', 48632), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690485540.9514508, 'user': {'account_name': 'Kate'}}), {}), return None 
+2023-07-27 20:19:00,951 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:19:00,952 INFO core Клиент ('127.0.0.1', 48632) отключился от сервера. 
+2023-07-27 20:19:03,031 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:19:03,031 DEBUG decor Function arg_parser((), {}), return ('127.0.0.1', 7777, 'Kate') 
+2023-07-27 20:19:03,114 INFO core Установлено соедение с ПК ('127.0.0.1', 48648) 
+2023-07-27 20:19:03,114 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:19:03,115 DEBUG decor Function send_message((<socket.socket fd=18, family=2, type=1, proto=0, laddr=('127.0.0.1', 48648), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690485543.1142726, 'user': {'account_name': 'Kate'}}), {}), return None 
+2023-07-27 20:19:03,615 DEBUG decor Function get_message was called from run 
+2023-07-27 20:19:03,615 DEBUG decor Function get_message((<socket.socket fd=13, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 48648)>,), {}), return {'action': 'presence', 'time': 1690485543.1142726, 'user': {'account_name': 'Kate'}} 
+2023-07-27 20:19:03,615 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:19:03,615 INFO core Клиент ('127.0.0.1', 48648) отключился от сервера. 
+2023-07-27 20:19:11,667 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:19:11,667 DEBUG decor Function arg_parser((), {}), return ('localhost', 7777, None) 
+2023-07-27 20:19:14,717 INFO core Установлено соедение с ПК ('127.0.0.1', 50796) 
+2023-07-27 20:19:14,718 DEBUG decor Function send_message was called from connection_init 
+2023-07-27 20:19:14,718 DEBUG decor Function send_message((<socket.socket fd=21, family=2, type=1, proto=0, laddr=('127.0.0.1', 50796), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1690485554.717123, 'user': {'account_name': 'Kate'}}), {}), return None 
+2023-07-27 20:19:15,218 DEBUG decor Function get_message was called from run 
+2023-07-27 20:19:15,218 DEBUG decor Function get_message((<socket.socket fd=13, family=2, type=1, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50796)>,), {}), return {'action': 'presence', 'time': 1690485554.717123, 'user': {'account_name': 'Kate'}} 
+2023-07-27 20:19:15,218 DEBUG core Getting data from client exception. 
+Traceback (most recent call last):
+  File "/home/nord/GIT_Kate/AsyncChat_Kate/Hometask14/server/core.py", line 58, in run
+    self.process_message(
+TypeError: MessageProcessor.process_message() takes 2 positional arguments but 3 were given
+2023-07-27 20:19:15,219 INFO core Клиент ('127.0.0.1', 50796) отключился от сервера. 
+2023-07-27 20:19:57,583 DEBUG decor Function main was called from <module> 
+2023-07-27 20:19:57,583 DEBUG decor Function main((), {}), return None 
+2023-07-27 20:20:11,457 DEBUG decor Function config_load was called from main 
+2023-07-27 20:20:11,457 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f67e012ef10> 
+2023-07-27 20:20:11,457 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 20:20:11,460 DEBUG server Аргументы успешно загружены. 
+2023-07-27 20:20:11,460 DEBUG decor Function arg_parser was called from main 
+2023-07-27 20:20:11,460 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 20:20:11,480 INFO core Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: .
+ Если адрес не указан, принимаются соединения с любых адресов. 
+2023-07-27 20:20:35,032 DEBUG decor Function arg_parser was called from <module> 
+2023-07-27 20:20:35,032 DEBUG decor Function arg_parser((), {}), return ('localhost', 7777, None) 
+2023-07-27 20:24:14,281 DEBUG decor Function config_load was called from main 
+2023-07-27 20:24:14,281 DEBUG decor Function config_load((), {}), return <configparser.ConfigParser object at 0x7f5cd9932d10> 
+2023-07-27 20:24:14,281 DEBUG server Инициализация парсера аргументов коммандной строки: ['server.py'] 
+2023-07-27 20:24:14,285 DEBUG server Аргументы успешно загружены. 
+2023-07-27 20:24:14,285 DEBUG decor Function arg_parser was called from main 
+2023-07-27 20:24:14,285 DEBUG decor Function arg_parser(('7777', ''), {}), return ('', 7777, False) 
+2023-07-27 20:24:14,306 INFO core Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: .
+ Если адрес не указан, принимаются соединения с любых адресов. 
